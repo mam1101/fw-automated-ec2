@@ -71,7 +71,7 @@ for attempt in range(0, max_ssh_attempts):
             if exit_status == 0:
                 print(stdout.read())
             else:
-                print("Error:", exit_status, stderr)
+                print("Error:", exit_status, stderr.read())
 
         client.close()
         print('============================================')
