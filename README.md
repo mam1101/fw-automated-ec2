@@ -11,7 +11,7 @@ On your local machine you need to install the following:
   * [View Installation Instructions](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html)
 
 ## Packages
-A complete list of requirements is in the `requirements.txt` file. This script relies on two key packages:
+A complete requirements list is found in the `requirements.txt` file. This script relies on two key packages:
 * [Paramiko (for SSH)](http://www.paramiko.org/)
 * [Boto3 (for AWS control)](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
 
