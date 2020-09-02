@@ -30,7 +30,7 @@ pip install -r requirements.txt
 
 To use this script, run in a blank directory using
 ```
-python aws_ec2.py.
+python aws_ec2.py
 ```
 
 ## License
