@@ -20,8 +20,9 @@ Before using the script, you must configure your AWS CLI instance by running the
 ```
 aws configure
 ```
-Enter the correct information provided from AWS. The AWS CLI requires an AccessKeyId, SecretAccessKey, and Region. Once entered, run a python
-package installation on the requirement.txt file using pip:
+Enter the correct information provided from AWS. The AWS CLI requires an AccessKeyId, SecretAccessKey, and Region. 
+
+Once aws has been configured, install the required python packages from the requirement.txt file using pip:
 
 ```
 pip install -r requirements.txt
@@ -29,7 +30,7 @@ pip install -r requirements.txt
 
 To use this script, run in a blank directory using
 ```
-python3 aws_ec2.py.
+python aws_ec2.py.
 ```
 
 ## License
